@@ -47,3 +47,25 @@
     });
 })();
 </script>
+
+<style>
+.sortable-code {
+    width: 100% !important;
+    max-width: 900px;
+    box-sizing: border-box;
+}
+
+.sortable-code ul {
+    width: 100% !important;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+
+.sortable-code li {
+    width: 100% !important;
+    max-width: 100%;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+</style>

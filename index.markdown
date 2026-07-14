@@ -18,21 +18,14 @@ title: Multiple Parson's Problems on One Page
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "for (int i = 0; i &lt; ablagestapel.length; i++)
-\n" +
-    "{
-\n" +
-    "    ablagestapel[i] = new ArrayStack&lt;Karte&gt;();
-\n" +
-    "}
-\n" +
-    "for (int i = 0; i &lt; kaskaden.length; i++)
-\n" +
-    "{
-\n" +
-    "    kaskaden[i] = new ArrayStack&lt;Karte&gt;();
-\n" +
-    "}";
+ var initial = `for (int i = 0; i < ablagestapel.length; i++)
+{
+    ablagestapel[i] = new ArrayStack<Karte>();
+}
+for (int i = 0; i < kaskaden.length; i++)
+{
+    kaskaden[i] = new ArrayStack<Karte>();
+}`;
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "test-sortable",
     "max_wrong_lines": 10,

@@ -7,31 +7,11 @@
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "for (int i = 0; i &lt; 52; i++) {
+  var initial = "print 
 \n" +
-    "    zahlen.add(i);
+    "print2
 \n" +
-    "} 
-\n" +
-    "//# TODO: Erzeugen Sie die Stacks für den Ablagestapel und die Kaskaden
-\n" +
-    "
-\n" +
-    "for (int i = 0; i &lt; ablagestapel.length; i++)
-\n" +
-    "{
-\n" +
-    "    ablagestapel[i] = new ArrayStack&lt;Karte&gt;();
-\n" +
-    "}
-\n" +
-    "for (int i = 0; i &lt; kaskaden.length; i++)
-\n" +
-    "{
-\n" +
-    "    kaskaden[i] = new ArrayStack&lt;Karte&gt;();
-\n" +
-    "}";
+    "print3";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
